@@ -1,0 +1,39 @@
+.gridContainer{
+	display:grid;
+	grid-template-columns: 300px 700px;
+	grid-template-areas: "one four"
+	"two three"
+	"six five"
+	;
+	gap: 10px;
+}
+.boxOne{
+	height: 200px;
+	background-color: red;
+	grid-area: one;
+}
+.boxTwo{
+	height: 200px;
+	background-color: blue;
+	grid-area: two;
+}
+.boxThree{
+	height: 200px;
+	background-color: green;
+	grid-area: three;
+}
+.boxFour{
+	height: 200px;
+	background-color: brown;
+	grid-area: four;
+}
+.boxFive{
+	height: 200px;
+	background-color: brown;
+	grid-area: five;
+}
+.boxSix{
+	height: 200px;
+	background-color: green;
+	grid-area: six;
+}

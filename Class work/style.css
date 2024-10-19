@@ -1,0 +1,38 @@
+.gridContainer{
+	display:grid;
+	height: 100vh;
+	grid-template-columns: 1fr 3fr;
+	gap: 10px;
+	grid-template-areas:
+	"headerGrid headerGrid"
+	"sideBarGrid mainGrid"
+	"extraGrid extraGrid"
+	"footerGrid footerGrid";
+	grid-template-rows: 40px 200px 40px 30px;
+}
+.header{
+	
+	background-color: red;
+	grid-area: headerGrid;
+}
+.sideBar{
+	
+	background-color: blue;
+	grid-area: sideBarGrid;
+}
+.mainContent{
+	
+	background-color: green;
+	grid-area: mainGrid;
+}
+.extraContent{
+	
+	background-color: brown;
+	grid-area: extraGrid;
+	
+}
+.footer{
+	
+	background-color: brown;
+	grid-area: footerGrid;
+}
